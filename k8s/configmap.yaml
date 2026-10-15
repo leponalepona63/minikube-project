@@ -1,0 +1,20 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Nginx Kubernetes Project</title>
+    </head>
+    <body style="font-family: Arial; text-align: center; padding: 60px; background: #eef4ff;">
+      <h1>Nginx on Kubernetes!</h1>
+      <p>My first Kubernetes web application.</p>
+      <p>Deployed using Minikube, Kubernetes and Nginx.</p>
+      <p>Project by: DevOps Fresher</p>
+    </body>
+    </html>
